@@ -4,17 +4,25 @@ import java.util.Scanner;
 
 public class one {
 public static void main(String[] args) {
-	Scanner s=new Scanner(System.in);
-	int one=s.nextInt();
-	int two=s.nextInt();
-	if(one>two){
-		System.out.println("larger is one");
+
+	for(int i=1;i<=5;i++){
+		for(int j=i;j<5;j++){
+			System.out.print(" ");
+			
+		}
+		for(int k=1;k<(i*2);k++){
+			System.out.print("*");
+		}
+System.out.println(" ");
 	}
-	else{
-		System.out.println("larger is two");
+	for(int i=4;i>=1;i--){
+		for(int j=5;j>i;j--){
+			System.out.print(" ");
+		}
+	for(int k=1;k<(i*2);k++){
+		System.out.print("*");
 	}
-	if(one==two){
-		System.out.println("number is equal");
-	}
+	System.out.println(" ");
+}
 }
 }

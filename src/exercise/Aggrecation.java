@@ -7,10 +7,10 @@ class aggre{
 	}
 }
 class Aggrecation{
-	aggre ag;
+	aggre ag=new aggre();;
 	double pi=3.14;
 	double area(int radius){
-		ag=new aggre();
+
 		int se=ag.oper(radius);
 		return pi*se;
 		
