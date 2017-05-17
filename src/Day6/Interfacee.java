@@ -71,8 +71,9 @@ class heli extends fly{
 public class Interfacee {
 public static void main(String[] args) {
 	Position po=new parrot();
-	airo ai=new airo();
-ai.getSpeed();
+	Position po1=new airo();
+	Position1 po2=(airo)po1;
+	po2.getIdea();
 }
 }
 
