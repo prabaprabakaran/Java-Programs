@@ -23,13 +23,11 @@ public static void main(String[] args) {
 			if(me[i].getName().indexOf("getId")!=-1){
 				me[i].setAccessible(true);
 				me[i].invoke(rp);
-				
 			}
 		}
-		
+		System.out.println("gowtham="+me[1].invoke(rp));
 	} catch (Exception e) {
 		e.printStackTrace();
 	}
-	
-}
+ }
 }
