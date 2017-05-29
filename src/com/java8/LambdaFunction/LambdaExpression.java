@@ -1,4 +1,4 @@
-package com.java8.Ex;
+package com.java8.LambdaFunction;
 
 import org.omg.Messaging.SyncScopeHelper;
 

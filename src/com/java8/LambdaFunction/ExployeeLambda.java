@@ -1,4 +1,4 @@
-package com.java8.Ex;
+package com.java8.LambdaFunction;
 
 public class ExployeeLambda {
 int i;

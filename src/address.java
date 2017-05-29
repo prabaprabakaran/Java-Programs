@@ -11,7 +11,6 @@ public class address {
 	    String line;
 	    line = in.readLine();        
 	    String[] result = line.split(",");
-
-	    System.out.println(result[0].replace('"', ' ').trim());
+       System.out.println(result[0].replace('"', ' ').trim());
 	}
 }

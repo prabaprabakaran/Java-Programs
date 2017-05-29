@@ -1,6 +1,6 @@
-package com.java8.Ex;
+package com.java8.LambdaFunction;
 
-public class predicateEmployee {
+public class ConsumerEmployee {
 	int i;
 	String name;
 	double salary;
@@ -22,7 +22,7 @@ public class predicateEmployee {
 	public void setSalary(double salary) {
 		this.salary = salary;
 	}
-	public predicateEmployee(int i,String name,double salary){
+	public ConsumerEmployee(int i,String name,double salary){
 		this.i=i;
 		this.name=name;
 		this.salary=salary;
@@ -32,4 +32,6 @@ public class predicateEmployee {
 			
 			return i+" "+" "+name+" "+salary;
 		}
+
+
 }

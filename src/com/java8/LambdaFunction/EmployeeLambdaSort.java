@@ -1,4 +1,4 @@
-package com.java8.Ex;
+package com.java8.LambdaFunction;
 
 import java.util.ArrayList;
 import java.util.Collections;
